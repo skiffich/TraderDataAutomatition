@@ -26,6 +26,9 @@ AllMidsSubscription = TypedDict("AllMidsSubscription", {"type": Literal["allMids
 L2BookSubscription = TypedDict("L2BookSubscription", {"type": Literal["l2Book"], "coin": str})
 TradesSubscription = TypedDict("TradesSubscription", {"type": Literal["trades"], "coin": str})
 UserEventsSubscription = TypedDict("UserEventsSubscription", {"type": Literal["userEvents"], "user": str})
+UserEventsSubscription = TypedDict("orderUpdatesSubscription", {"type": Literal["orderUpdates"], "orderUpdates": str})
+UserEventsSubscription = TypedDict("userFillsSubscription", {"type": Literal["userFills"], "userFills": str})
+UserEventsSubscription = TypedDict("userFundingsSubscription", {"type": Literal["userFundings"], "userFundings": str})
 Subscription = Union[AllMidsSubscription, L2BookSubscription, TradesSubscription, UserEventsSubscription]
 
 AllMidsData = TypedDict("AllMidsData", {"mids": Dict[str, str]})
