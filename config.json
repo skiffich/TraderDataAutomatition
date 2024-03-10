@@ -1,4 +1,15 @@
 {
+    "net_url":"https://api.hyperliquid.xyz",
+
     "secret_key": "",
-    "account_address": "0xaecfe4eff84a1cd9a24accc1914ac537af7f6e1b"
+    "account_address": "",
+
+    "follow_user": "0x8bf3ac5c417624b3bde7901de3c4ad7659599060",
+
+    "log_paths" : {
+        "user_events":"user_events", 
+        "order_updates":"order_updates", 
+        "user_fills":"fills_log", 
+        "user_fundings":"fundings_log"
+    }
 }
