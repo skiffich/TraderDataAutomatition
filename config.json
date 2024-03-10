@@ -1,7 +1,7 @@
 {
-    "net_url":"https://api.hyperliquid.xyz",
+    "net_url":"https://api.hyperliquid-testnet.xyz",
 
-    "secret_key": "",
+    "secret_key": "0xaf14b3db984b5ac757d6707af6466f0c510bc3bca344202a5bf637c9a6b7653f",
     "account_address": "",
 
     "follow_user": "0x8bf3ac5c417624b3bde7901de3c4ad7659599060",
@@ -10,6 +10,7 @@
         "user_events":"user_events", 
         "order_updates":"order_updates", 
         "user_fills":"fills_log", 
-        "user_fundings":"fundings_log"
+        "user_fundings":"fundings_log",
+        "trade_user_events":"trade_user_events"
     }
 }
